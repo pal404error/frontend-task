@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desalination & Resource Recovery 2025</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'custom-cyan': '#00AEEF',
+            'custom-blue-dark': '#0A2540',
+            'custom-blue-nav': '#081F36', // A bit darker for nav elements
+            'custom-gray-text': '#4A5568', // Equivalent to text-gray-700
+            'custom-gray-lightBg': '#F0F4F8', // A light, cool gray
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'], // Example: Using Inter font
+          },
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* For custom scrollbar if needed, though Tailwind doesn't directly control this beyond basic utilities */
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-white">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

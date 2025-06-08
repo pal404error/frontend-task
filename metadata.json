@@ -1,0 +1,5 @@
+{
+  "name": "Desalination & Resource Recovery 2025 Conference",
+  "description": "A React clone of the Desalination & Resource Recovery 2025 conference website, showcasing various sections like speakers, key topics, news, and sponsors. Built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
